@@ -5,7 +5,7 @@
 | Name          | Type                                  | Required | Description                                                                                                           |
 | :------------ | :------------------------------------ | :------- | :-------------------------------------------------------------------------------------------------------------------- |
 | checkin       | str                                   | ✅       | The arrival date.                                                                                                     |
-| checkout      | str                                   | ✅       | The departure date. Must be later than {checkin}. Must be between 1 and 30 days after (checkin).                      |
+| checkout      | str                                   | ✅       | The departure date. Must be later than (checkin). Must be between 1 and 30 days after (checkin).                      |
 | guest_country | str                                   | ✅       | Guest country code. Used to accurately display the best prices and price details for people from that country.        |
 | no_rooms      | int                                   | ✅       | The only group will be split in the given number of rooms automatically                                               |
 | hotel_ids     | List[int]                             | ❌       | Limit the result list to up to 1000 specified hotels where they have availability for the specified guests and dates. |
